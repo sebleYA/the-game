@@ -25,7 +25,7 @@ input {
 </style>
 
 <script language = "JavaScript">
-var myimages = ["images/testpattern.jpg", "images/wandavision.jpg", "images/mando.jpg", "images/doom-patrol-show.jpg"];
+var myimages = ["images/testpattern.jpg", "images/wandavision.jpg", "images/mando.jpg", "images/doom-patrol-show.jpg", "images/sabrina.jpg"];
 
 function buildImages() {
 for (var i = 0; i < myimages.length; i++) {
@@ -37,14 +37,14 @@ var currentImage = 0;
 
 function goHigher() {
   currentImage++;
-  currentImage = currentImage%4;
+  currentImage = currentImage%5;
   document.getElementById("demo").setAttribute("src",myimages[currentImage]);
 }
 
 function goLower() {
   currentImage--;
-  if(currentImage<0){currentImage=3;}
-  else{currentImage = currentImage%4;}
+  if(currentImage<0){currentImage=4;}
+  else{currentImage = currentImage%5;}
   document.getElementById("demo").setAttribute("src",myimages[currentImage]);
 }
 
