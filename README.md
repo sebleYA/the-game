@@ -18,11 +18,11 @@ At the next level will be directories for each group and for the lead author (bo
 - bob
 
 Index.html will point to one landing page in each group's directory:
--group1 > front.html
--group2 > back.html
--group3 > right.html
--group4 > left.html
--bob > cave.html
+- group1 > front.html
+- group2 > back.html
+- group3 > right.html
+- group4 > left.html
+- bob > cave.html
 
 Be sure to keep your group's content in it's own folder! 
 Also be sure to fix any broken links in your group's folder!
