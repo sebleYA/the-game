@@ -9,6 +9,8 @@ At the top of the structure will be:
 - index.html
 - error.html
 - README.md
+- CODE_OF_CONDUCT.md
+- LICENSE
 
 At the next level will be directories for each group and for the lead author (bob):
 - group1
