@@ -24,6 +24,8 @@ Index.html will point to one landing page in each group's directory:
 - group4 > left.html
 - bob > cave.html
 
-Be sure to keep your group's content in it's own folder! 
-Also be sure to fix any broken links in your group's folder!
-Any stay files or directories left at the top level will be deleted. 
+Be sure to keep your group's content in it's own folder!   
+
+Also be sure to fix any broken links in your group's folder!  
+
+Any stray files or directories left at the top level will be deleted. 
