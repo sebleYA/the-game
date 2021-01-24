@@ -5,12 +5,12 @@ Students in IT 115 are going to add content to this project.
 
 This is going to be a web application. The directory structure will work like a tree.
 
-At the top of the structure will be 
+At the top of the structure will be: 
 - index.html
 - error.html
 - README.md
 
-At the next level will be directories for each group and for the lead author (bob)
+At the next level will be directories for each group and for the lead author (bob):
 - group1
 - group2
 - group3
