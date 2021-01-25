@@ -4,6 +4,8 @@ var endcount = myimages.length;
 
 var currentImage = 0;
 
+document.getElementById("demo").setAttribute("src",myimages[0]);
+
 function buildImages() {
     for (var i = 0; i < myimages.length; i++) {
        document.getElementById("thepic").src=images[i++];
@@ -22,3 +24,4 @@ function goLower() {
   else{currentImage = currentImage%endcount;}
   document.getElementById("demo").setAttribute("src",myimages[currentImage]);
 }
+
