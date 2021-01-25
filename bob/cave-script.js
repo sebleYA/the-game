@@ -1,4 +1,6 @@
-var myimages = ["images/testpattern.jpg", "images/wandavision.jpg", "images/mando.jpg", "images/doom-patrol-show.jpg", "images/sabrina.jpg"];
+var myimages = ["images/testpattern.jpg", "images/wandavision.jpg", "images/mando.jpg", "images/doom-patrol-show.jpg", "images/sabrina.jpg", "images/dark.jpg"];
+
+var endcount = myimages.length;
 
 var currentImage = 0;
 
@@ -10,13 +12,13 @@ function buildImages() {
 
 function goHigher() {
   currentImage++;
-  currentImage = currentImage%5;
+  currentImage = currentImage%endcount;
   document.getElementById("demo").setAttribute("src",myimages[currentImage]);
 }
 
 function goLower() {
   currentImage--;
-  if(currentImage<0){currentImage=4;}
-  else{currentImage = currentImage%5;}
+  if(currentImage<0){currentImage=(endcount-1);}
+  else{currentImage = currentImage%endcount;}
   document.getElementById("demo").setAttribute("src",myimages[currentImage]);
 }
