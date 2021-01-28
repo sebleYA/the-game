@@ -17,29 +17,45 @@ You can test the latest version of The Game at this URL:
 
 http://the-game-demo.s3-website-us-east-1.amazonaws.com/index.html
 
-At the top of the structure will be:
+Our current testing procedure is to click on each link and check for broken links and missing pages. 
 
-index.html
-error.html
-README.md
-CODE_OF_CONDUCT.md
-LICENSE
-At the next level will be directories for each group and for the lead author (bob):
+## Bug Reports
 
-group1
-group2
-group3
-group4
-bob
-Index.html will point to one landing page in each group's directory:
+Report bugs to your group's leader. You can also report bugs here:
 
-group1 > front.html
-group2 > back.html
-group3 > right.html
-group4 > left.html
-bob > cave.html
-Be sure to keep your group's content in it's own folder!
+https://canvas.northseattle.edu/courses/2023764/discussion_topics/12224321
 
-Also be sure to fix any broken links in your group's folder!
+## Code of Conduct
 
-Any stray files or directories left at the top level will be deleted.
+Please respect the Game's purpose and design structure. The design structure is described below. 
+
+### At the top of the structure will be:
+
+* index.html
+* error.html
+* README.md
+* CODE_OF_CONDUCT.md
+* LICENSE
+* CONTRIBUTING.md
+
+### At the next level will be directories for each group and for the lead author (bob):
+
+* group1
+* group2
+* group3
+* group4
+* bob
+
+### Index.html will point to one landing page in each group's directory:
+
+* group1 > front.html
+* group2 > back.html
+* group3 > right.html
+* group4 > left.html
+* bob > cave.html
+
+### Reminders
+
+* Be sure to keep your group's content in it's own folder!
+* Also be sure to fix any broken links in your group's folder!
+* Any stray files or directories left at the top level will be deleted.
