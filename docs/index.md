@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-# Shout Out to Group 4!!!
+# Shout Out to Group 1!!!
 
 You can use the [editor on GitHub](https://github.com/rbunge-nsc/the-game/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
