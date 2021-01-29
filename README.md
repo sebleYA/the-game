@@ -1,4 +1,4 @@
-# the-game
+# the-wild-west-game
 Project repository for IT 115 Winter 2021
 
 Four students from IT 115 are going to add content to this project, focusing on our game idea -- the Wild West. 
