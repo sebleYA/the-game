@@ -12,5 +12,4 @@ Users can get help with this project by posting on this technical discussion boa
 
 https://canvas.northseattle.edu/courses/2023764/discussion_topics/12224321
 
-Robert Bunge is the primary editor for this class-level repository for the game. All class members are invited to collaborate. Different groups will also set up their own 
-independent repositories for forks of this project. 
+Joe is the primary editor for this class-level repository for the game. All group members are invited to collaborate. 
