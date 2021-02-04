@@ -28,6 +28,17 @@ https://canvas.northseattle.edu/courses/2023764/discussion_topics/12224321
 ## Code of Conduct
 
 Please respect the Game's purpose and design structure. The design structure is described below. 
+Also, the following pages are **NOT** to be added by any contributors:
+
+* index.html
+* error.html
+* README.md
+* CODE_OF_CONDUCT.md
+* LICENSE
+* CONTRIBUTING.md
+
+If you are updating these pages for a class assignment or a group project be sure to commit the pages to
+the correct respository! **NOT** this repository!
 
 ### At the top of the structure will be:
 
