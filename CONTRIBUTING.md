@@ -1,11 +1,11 @@
 # Welcome!
 
-Welcome to The Game! This is an open source project for students in IT 115. The goal of the project is to make a bunch of web application code so we can all practice
+Welcome to The Wild West! This is an open source project for group 4 (Joe, Spencer, Kyle, and Sarah) in IT 115. The goal of the project is to make a bunch of web application code so we can all practice
 managing this code on GitHub. 
 
 ## Environment Details
 
-Part of the class is to explore different development enviroments. This repository will be for code contributions from all class members. The class is divided into groups.
+Part of the class is to explore different development enviroments. This repository will be for code contributions from all team members. The class is divided into groups.
 There is a directory for group. Each student should only contribute code to the directory for his/her group. The GitHub security model allows each contributor access
 to the entire repository, but please be responsibe and put your code in your assigned directory!
 
@@ -70,3 +70,5 @@ the correct respository! **NOT** this repository!
 * Be sure to keep your group's content in it's own folder!
 * Also be sure to fix any broken links in your group's folder!
 * Any stray files or directories left at the top level will be deleted.
+
+### Kyle's contribution to CONTRIBUTING.md

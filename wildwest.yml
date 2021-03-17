@@ -1,0 +1,83 @@
+---
+- name: The Wild West Game provisioning playbook
+  hosts: wildwest
+  become: true
+  gather_facts: true
+  
+  tasks:
+  - name: Update OS and packages
+    apt:
+     update_cache: yes
+     upgrade: yes
+     force_apt_get: yes
+     
+  - name: Install MySQL
+    apt: 
+     name: mysql-server
+     state: present
+         
+  - name: restart the MySQL service
+    service: 
+     name: mysql 
+     state: restarted
+     enabled: true  
+     
+  - name: install apache
+    apt: 
+     name: apache2
+     state: latest  
+  
+  - name: start apache
+    service:
+     name: apache2
+     state: restarted
+  
+  - name: Install PHP
+    apt: 
+     name: [ php-common, php-xml, php-mysql ]
+     state: present     
+     
+  - name: create admin user
+    user: 
+     name: admin 
+     group: root
+     
+  - name: create .ssh directory
+    file:
+     path: /home/admin/.ssh
+     state: directory
+     owner: admin
+     
+  - name: copy admin private key
+    copy:
+     src: ./config/it115
+     dest: /home/admin/.ssh/it115
+     owner: admin
+     
+  - name: copy admin public key
+    copy:
+     src: ./config/it115.pub
+     dest: /home/admin/.ssh/it115.pub
+     owner: admin
+     
+  - name: protect private key
+    file:
+     path: /home/admin/.ssh/it115
+     mode: 0600
+     owner: admin
+     
+  - name: clone github repository to instance
+    git:
+      repo: http://github.com/ashvinau/the-wild-west-game
+      dest: /tmp/wildwest/
+      
+  - name: remove default apache index.html
+    file:
+      path: /var/www/html/index.html
+      state: absent  
+      
+  - name: copy html files to web root directory
+    raw: cp /tmp/wildwest/html/* /var/www/html/
+     
+  - name: copy html files to web root directory
+    raw: cp /tmp/wildwest/images/* /var/www/html/
